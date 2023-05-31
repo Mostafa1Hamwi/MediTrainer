@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="252.129" height="72.952" viewBox="0 0 252.129 72.952">
+  <g id="Group_64" data-name="Group 64" transform="translate(-62.871 -22.256)">
+    <text id="MediTrainer" transform="translate(146 69)" fill="#00a9ce" font-size="25" font-family="SegoeScript-Bold, Segoe Script" font-weight="700"><tspan x="0" y="0">MediTrainer</tspan></text>
+    <g id="Small" transform="translate(-3178.606 -261.231)">
+      <path id="Path_9" data-name="Path 9" d="M24.569,43.4C11.387,34.6,4.42,27.266,1.585,20.566c-7.6-17.955,14.1-26.541,22.931-15.942,8.831-10.6,30.526-2.013,22.931,15.942C44.611,27.266,37.751,34.6,24.569,43.4Z" transform="translate(3245.416 286.5)" fill="none" stroke="#00a9ce" stroke-linecap="square" stroke-width="6"/>
+      <path id="Path_12" data-name="Path 12" d="M13.478,0A65.671,65.671,0,0,0,5.2,4.874,25.434,25.434,0,0,0,0,9.881" transform="translate(3256.454 331.283)" fill="#00a9ce" stroke="#00a9ce" stroke-linecap="round" stroke-width="4.25"/>
+      <g id="Group_48" data-name="Group 48" transform="translate(3279.975 339.801)">
+        <g id="Group_51" data-name="Group 51" transform="translate(0 0)">
+          <g id="Ellipse_23" data-name="Ellipse 23" transform="translate(0 0)" fill="none" stroke="#00a9ce" stroke-width="3">
+            <ellipse cx="7.933" cy="8.08" rx="7.933" ry="8.08" stroke="none"/>
+            <ellipse cx="7.933" cy="8.08" rx="6.433" ry="6.58" fill="none"/>
+          </g>
+          <g id="Ellipse_25" data-name="Ellipse 25" transform="translate(5.725 5.862)" fill="#00a9ce" stroke="#00a9ce" stroke-width="1">
+            <circle cx="2.317" cy="2.317" r="2.317" stroke="none"/>
+            <circle cx="2.317" cy="2.317" r="1.817" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_47" data-name="Group 47" transform="matrix(0.669, -0.743, 0.743, 0.669, 3243.606, 345.535)">
+        <path id="Path_10" data-name="Path 10" d="M0,3.761V.014S10.8-.635,10.721,6.806" transform="translate(0 0)" fill="none" stroke="#00a9ce" stroke-linecap="round" stroke-width="3"/>
+        <path id="Path_11" data-name="Path 11" d="M0,3.045V6.791S10.8,7.441,10.721,0" transform="translate(0 6.31)" fill="none" stroke="#00a9ce" stroke-linecap="round" stroke-width="3"/>
+      </g>
+      <path id="Path_13" data-name="Path 13" d="M0,0A65.671,65.671,0,0,1,8.282,4.874a25.434,25.434,0,0,1,5.2,5.007" transform="translate(3269.813 331.283)" fill="#00a9ce" stroke="#00a9ce" stroke-linecap="round" stroke-width="4.25"/>
+    </g>
+  </g>
+</svg>
