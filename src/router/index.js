@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import RegisterView from '../views/RegisterView.vue'
+import ContactView from '../views/ContactView.vue'
 import SummarizationView from '../views/SummarizationView.vue'
 import SimplificationView from '../views/SimplificationView.vue'
 import ImageView from '../views/ImageView.vue'
@@ -26,9 +26,9 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
     }, {
-      path: '/register',
-      name: 'register',
-      component: RegisterView
+      path: '/contact',
+      name: 'contact',
+      component: ContactView
     },
     {
       path: '/summarization',

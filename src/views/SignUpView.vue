@@ -10,7 +10,7 @@ import CustomButton from "../components/CustomButton.vue"
     <div class="col-span-2">
         <div class="ml-12 mt-24 space-y-8">
         <div>
-        <img src="../assets/logoNoText.svg" alt="" class="mb-2">
+        <img src="../assets/logoNoText.svg" alt="" class="mb-4 w-16">
         <h2 class="text-3xl font-bold">Create an account</h2>
         <p class="text-gray-400">Welcome to MediTrainer !</p>
         </div>
