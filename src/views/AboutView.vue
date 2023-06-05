@@ -1,13 +1,17 @@
+<!-- eslint-disable no-unused-vars -->
 <script setup>
-import UploadBox from "../components/UploadBox.vue";
-import CustomButton from "../components/CustomButton.vue";
-import Calender from "../components/Calender.vue";
-import iArrow from "../components/icons/iArrow.vue"
-import AddTask from "../components/AddTask.vue";
+// import UploadBox from "../components/UploadBox.vue";
+// import CustomButton from "../components/CustomButton.vue";
+// import Calender from "../components/Calender.vue";
+// import iArrow from "../components/icons/iArrow.vue"
+// import DropDownMenu from "../components/DropDownMenu.vue"
+// import AddTask from "../components/AddTask.vue";
+// import { ref } from 'vue';
+import EventsList from "../components/EventsList.vue";
+
 
 
 let selectedFile=null
-
 function OnFileSelected(event){
 this.selectedFile=event.target.files[0]
 }
@@ -15,13 +19,14 @@ function onUpload(){
   console.log('hiiiiiiiii')
 }
 
+
 </script>
 <template>
   <!-- <p @click="pro1">about page</p>
   <input type="file" @change="OnFileSelected">
   <button @click="onUpload">Upload</button> -->
 
-
+<!-- <DropDownMenu></DropDownMenu> -->
   <!-- <div class="flex items-center justify-center w-full">
     <label for="dropzone-file" class="flex flex-col items-center justify-center w-full h-64 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
         <div class="flex flex-col items-center justify-center pt-5 pb-6">
@@ -34,10 +39,13 @@ function onUpload(){
 </div>  -->
 
 
-
+<EventsList></EventsList>
 <!-- <Calender></Calender> -->
 
-<AddTask></AddTask>
+
+
+
+<!-- <AddTask></AddTask> -->
 
 </template>
 
@@ -51,4 +59,5 @@ function onUpload(){
     align-items: center;
   }
 }
+
 </style>

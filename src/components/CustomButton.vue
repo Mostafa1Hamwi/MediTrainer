@@ -2,7 +2,7 @@
 let props=defineProps(['type'])
 </script>
 <template>
-    <button
+    <button 
     :class="{
     ' px-36 py-2 border rounded-xl text-white text-lg font-bold drop-shadow-lg ':true,
         'bg-blue-400 w-96': type == 'home',

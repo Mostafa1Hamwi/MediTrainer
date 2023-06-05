@@ -10,7 +10,7 @@ import { ref } from 'vue';
 <template>
     <div class="flex space-x-10">
         <h2 class="text-4xl font-bold my-10">Task Tracker</h2>
-        <button class="flex items-center py-2 px-4 text-white font-bold bg-blue-400 hover:bg-blue-500 self-center rounded-lg" @click="showAddTask=!showAddTask">Add Task <img src="../assets/add.svg" alt="" class="ml-3"> </button>
+        <button class="flex items-center py-2 px-4 text-white font-bold bg-blue-400 hover:bg-blue-500 self-center rounded-lg" @click="showAddTask=!showAddTask" >Add Task <img src="../assets/add.svg" alt="" class="ml-3"> </button>
     </div>
     <div class="grid grid-cols-2">
         <div >

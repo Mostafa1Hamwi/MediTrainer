@@ -8,6 +8,7 @@ import GraphView from '../views/GraphView.vue'
 import SignUpView from '../views/SignUpView.vue'
 import LogInView from '../views/LogInView.vue'
 import TasksView from '../views/TasksView.vue'
+import ProfileView from '../views/ProfileView.vue'
 
 
 const router = createRouter({
@@ -70,6 +71,11 @@ const router = createRouter({
       path: '/tasks',
       name: 'tasks',
       component: TasksView,
+    },
+    {
+      path: '/profile',
+      name: 'profile',
+      component: ProfileView,
     },
   ]
 })

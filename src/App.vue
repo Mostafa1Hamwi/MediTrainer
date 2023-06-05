@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import DropDownMenu from '@/components/DropDownMenu.vue';
 
 </script>
 
@@ -13,11 +14,11 @@ import { RouterLink, RouterView } from 'vue-router'
         <img alt="MediTrainer logo" class="logo" src="@/assets/logo.svg" width="155" height="155" />
       </RouterLink>
       </div>
-      <div class="space-x-12 text-blue-400 ml-16 font-bold">
+      <div class="space-x-12 text-blue-400 ml-16 font-bold flex items-center">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/contact">Contact</RouterLink>
-        <RouterLink to="/profile">Profile</RouterLink>
+        <div><DropDownMenu /></div>
       </div>
       </nav>
     </div>
