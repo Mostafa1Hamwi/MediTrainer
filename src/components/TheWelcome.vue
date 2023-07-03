@@ -17,8 +17,8 @@ import { RouterLink } from 'vue-router'
       Welcome To
     </template>
     <template #heading>MediTrainer</template>
-    <template #text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</template>
+    <template #text>MediTrainer is a platform designed to help medical students in their learning journey, we offer several services that makes the learning experience easier and more focused.
+       <br> Our platform is free to use and is the perfect place for medical students who want to succeed in their studies. With our help, you can learn more effectively, and stay more organized at the same time.</template>
   </Square>
   <!-- Arrow -->
   <div class="pl-8 pr-2">

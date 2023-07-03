@@ -10,16 +10,17 @@ import iArrow from "../components/icons/iArrow.vue"
 <!-- welcome Box -->
 <Square :type="'image'">
   <template #heading>Image Analysis</template>
-  <template #text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</template>
+  <template #text>This tool is designed to help students analyze X-ray and CT-Scan images and so they can see real-life images for patients and practice on them.
+    Upload the photo you want to analyze into the analysis box then click the Analyze button and you're all set ! <br>
+    <i>Note: The Analysis process may take up to a minute.</i> </template>
 </Square>
 
 <UploadBox :type="'image'" />
 </div>
 </div>
 <div class="absolute bottom-0">
-<div class="flex ml-52 items-center">
-<img src="../assets/photos/analysis.png" alt="" width="390" class="">
+<div class="flex ml-56 items-center">
+<img src="../assets/photos/analysis.png" alt="" width="300" class="">
 <iArrow :type="'image'"></iArrow>
 </div>
 </div>

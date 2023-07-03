@@ -13,11 +13,11 @@
             <p class="text-gray-400 text-sm">Joined 4 June 2023</p>
         
         </div>
-        <div class="space-x-7">
-        <button class="py-2 px-4 w-28 text-white font-bold bg-blue-400 hover:bg-blue-500 self-center rounded-lg mt-4" >Saved </button>
+        <div class="space-x-7 mt-5">
         <button class="py-2 px-4 w-32 text-white font-bold bg-blue-400 hover:bg-blue-500 self-center rounded-lg mt-4" >Edit Profile </button>
+        <button class="py-2 px-4 w-28 text-white font-bold bg-red-600 hover:bg-red-700 self-center rounded-lg mt-4" >Logout </button>
     </div>
-    <button class="py-2 px-4 w-28 text-white font-bold bg-red-500 hover:bg-red-600 self-center rounded-lg mt-4" >Logout </button>
+   
         </div>
 
  

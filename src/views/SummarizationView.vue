@@ -1,6 +1,6 @@
 <script setup>
 import Square from "../components/Square.vue"
-import UploadBox from "../components/UploadBox.vue"
+import TextBox from "../components/TextBox.vue"
 import iArrow from "../components/icons/iArrow.vue"
 </script>
 
@@ -10,11 +10,13 @@ import iArrow from "../components/icons/iArrow.vue"
 <!-- welcome Box -->
 <Square :type="'summarization'">
   <template #heading>Text Summarization</template>
-  <template #text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</template>
+  <template #text>This tool is designed to turn a document into a shorter concise and fluent summary while preserving key information content and overall meaning automatically.
+    Paste the text you want to summarize into the summarization box then click the summarize button and you're all set ! <br>
+    <i>Note: The summarization process may take up to a minute. and the results may contain some inaccuracies.</i> 
+      </template>
 </Square>
 
-<UploadBox :type="'summarization'"  />
+<TextBox :type="'summarization'"  />
 </div>
 </div>
 <div class="absolute bottom-0">

@@ -18,7 +18,7 @@ let props = defineProps(['type'])
         'text-red-500': type == 'simplification',
         'text-indigo-700': type == 'image',
         'text-yellow-500': type == 'graph',
-    }"><slot name="heading"></slot> </p></h2>
+    }"> &nbsp; <slot name="heading"></slot> </p></h2>
         <p class="mt-8 mb-10"><slot name="text"></slot></p>
         </div>
     </div>

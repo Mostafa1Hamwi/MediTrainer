@@ -2,20 +2,32 @@
 import TaskIcon from '../components/TaskIcon.vue';
 import Event from '../components/Event.vue'
 import AddTask from '../components/AddTask.vue';
-import { ref } from 'vue';
+import axios, { Axios } from "axios"
+import { ref, onMounted } from 'vue';
  let showAddTask=ref(false)
+
+ const tasks = ref([]);
+ onMounted(fetchTasks);
+
+ async function fetchTasks() {
+  const response = await axios.get('http://localhost:5000/tasks');
+  tasks.value = response.data;
+  console.log(tasks.value);
+}
  
 
 </script>
+
 <template>
     <div class="flex space-x-10">
         <h2 class="text-4xl font-bold my-10">Task Tracker</h2>
-        <button class="flex items-center py-2 px-4 text-white font-bold bg-blue-400 hover:bg-blue-500 self-center rounded-lg" @click="showAddTask=!showAddTask" >Add Task <img src="../assets/add.svg" alt="" class="ml-3"> </button>
+        <button class="flex items-center py-2 px-4 text-white font-bold bg-blue-400 hover:bg-blue-500 self-center rounded-lg" :class="{' bg-red-500 hover:bg-red-600':showAddTask,' bg-blue-400 hover:bg-blue-500':!showAddTask}"
+         @click="showAddTask=!showAddTask" >{{ showAddTask ? 'Close' : 'Add Task' }}</button>
     </div>
     <div class="grid grid-cols-2">
         <div >
             <div v-if="showAddTask">
-                <AddTask></AddTask>
+                <AddTask :tasks="tasks"></AddTask>
             </div>
             <div v-else class="space-y-10">
                 <TaskIcon :type="'toDo'">
@@ -31,15 +43,8 @@ import { ref } from 'vue';
         </div>
 
         <div class="self-start">
-                <h3 class="text-4xl font-bold mb-10">Upcoming Events</h3>
-
-                <!-- Event Box -->
-                <Event :type="'done'"></Event>
-                <Event :type="'toDo'" class="mt-2"></Event>
-                <Event :type="'toDo'" class="mt-2"></Event>
-
-                
-                
+                <h3 class="text-4xl font-bold mb-10">Upcoming Events</h3>     
+                <Event :type="'done'" :tasks="tasks"></Event>      
             </div>
     </div>
 

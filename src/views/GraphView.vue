@@ -1,6 +1,6 @@
 <script setup>
 import Square from "../components/Square.vue"
-import UploadBox from "../components/UploadBox.vue";
+import TextBox from "../components/TextBox.vue";
 import iArrow from "../components/icons/iArrow.vue"
 </script>
 
@@ -10,16 +10,17 @@ import iArrow from "../components/icons/iArrow.vue"
 <!-- welcome Box -->
 <Square :type="'graph'">
   <template #heading>Text To Graph</template>
-  <template #text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</template>
+  <template #text>This tool is designed to turn a document into easy good-looking graphs that makes the learning experience more focused.
+    Paste the text you want to transform into the transformation box then click the draw button and you're all set ! <br>
+    <i>Note: The transformation process may take up to a minute. and the results may contain some inaccuracies.</i> </template>
 </Square>
 
-<UploadBox :type="'graph'"  />
+<TextBox :type="'graph'"  />
 </div>
 </div>
 <div class="absolute bottom-0">
 <div class="flex ml-72 items-center">
-<img src="../assets/photos/graph.png" alt="" width="260" class="">
+<img src="../assets/photos/graph.png" alt="" width="250" class="">
 <iArrow :type="'graph'"></iArrow>
 </div>
 </div>

@@ -8,11 +8,11 @@ import { RouterLink } from "vue-router";
         <img alt="" src="@/assets/clock.svg" width="35" height="35" class="ml-4" />
     </div>
     <div class="flex justify-between items-start">
-    <p class="max-w-3xl mt-1.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                Excepteur sint occaecat cupidatat non proident,</p>
+    <p class="max-w-3xl mt-1.5">Task Tracker is a tool that helps you manage your tasks and stay on top of your work. It can help you to Set goals and track your progress
+                                and manage your time effectively to stay motivated and on track <br> If you're looking for a way to improve your productivity, start tracking today!</p>
 
     <!-- Button needs to be extracted into its own component -->
-   <RouterLink to="/tasks"><button class="mr-10 bg-white text-blue-400 px-24 text-lg font-bold rounded-2xl py-2 mt-2 shadow-lg">Start Tracking</button></RouterLink> 
+   <RouterLink to="/tasks"><button class="mr-10 bg-white hover:bg-gray-50 text-blue-400 px-24 text-lg font-bold rounded-2xl py-2 mt-2 shadow-lg">Start Tracking</button></RouterLink> 
 </div>
 
     </div>
