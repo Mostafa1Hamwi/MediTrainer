@@ -9,6 +9,9 @@ import SignUpView from '../views/SignUpView.vue'
 import LogInView from '../views/LogInView.vue'
 import TasksView from '../views/TasksView.vue'
 import ProfileView from '../views/ProfileView.vue'
+import ResultsView from '../views/ResultsView.vue'
+import GraphResultsView from '../views/GraphResultsView.vue'
+
 
 
 const router = createRouter({
@@ -76,6 +79,18 @@ const router = createRouter({
       path: '/profile',
       name: 'profile',
       component: ProfileView,
+    },
+    {
+      path: '/textResult',
+      name: 'textResult',
+      component: ResultsView,
+      props: true
+    },
+    {
+      path: '/graphResult',
+      name: 'graphResult',
+      component: GraphResultsView,
+      props: true
     },
   ]
 })
