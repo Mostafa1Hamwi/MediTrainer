@@ -1,6 +1,6 @@
 # medical-trainer
 
-This template should help get you started developing with Vue 3 in Vite.
+MediTrainer is a cross-platform AI-powered studying assitant for medical school students,it offers features such as: text simplification feature that simplifies text to make it easier to study, summarization feature to help students retain more information in less time, and a mind mapping feature that provides students with a text-to-graph representation to facilitate difficult topics and materials and turns them into easy good-looking graphs that makes the learning experience more focused Moreover, this application has a medical disease detection feature, It helps students analyze Xray and CT-Scan images, students can see real-life images for patients and practice on them. In addition, our application has a management tool that helps medical students get balance between their life and academic and practical responsibilities.
 
 ## Recommended IDE Setup
 
